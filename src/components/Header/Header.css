@@ -1,0 +1,49 @@
+header {
+  position: relative;
+  background-color: Black;
+  padding: 1.5rem 0;
+}
+
+header label {
+  position: absolute;
+  left: 1.7rem;
+  top: 1.3rem;
+  font-size: 2.2rem;
+  color: white;
+  font-family: 'Assistant', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+header input[type='text'] {
+  background-color: white;
+  border-radius: 10px 0 0 10px;
+  border: none;
+  outline: none;
+  width: 50%;
+  font-size: 1.2rem;
+  padding: 0.5rem 0.1rem 0.5rem 1rem;
+}
+
+header button {
+  background-color: white;
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+  padding: 0.5rem 0.5rem;
+  border-radius: 0 10px 10px 0;
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    display: flex;
+    justify-content: end;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+  }
+
+  header label {
+    left: 1.2rem;
+  }
+}

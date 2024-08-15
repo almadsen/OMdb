@@ -1,0 +1,15 @@
+html,
+body,
+#root,
+.App {
+  height: 100vh;
+}
+
+body {
+  background-color: LightSlateGrey;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+}
